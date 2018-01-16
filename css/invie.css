@@ -26,7 +26,8 @@ margin: 0px;
 .background
 {
 	background-image: url('../imagenes/background.png');
-   size:cover;
+   background-size: cover;
+  
 }
 
 .header{
