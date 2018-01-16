@@ -1,0 +1,262 @@
+/*body
+{
+	background: peru;
+
+}
+selector universal 
+*{
+	border: 1px solid red;
+	margin:10px;
+}
+*/
+/** 
+{
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid red;
+}*/
+
+
+body{
+font-family: 'Allerta', sans-serif;
+margin-bottom:15px; 
+margin: 0px;
+
+}
+.background
+{
+	background-image: url('../imagenes/background.png');
+   size:cover;
+}
+
+.header{
+margin: auto;
+position: relative;
+background-size: cover;
+}
+
+.titulo {
+font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
+	font-color: white;
+	margin-bottom:0px; 
+	margin-top: 70px;
+
+}
+
+
+.titulo span{
+text-decoration: underline;
+
+}
+
+/*imagen de fondo de la portada*/
+.portada{
+	
+	color: white;
+	height: 500px;
+
+}
+
+.portada button{
+margin-bottom: 70px;
+}
+
+.title-a{
+	font-size: 20px;
+	margin-top: 0;
+
+}
+
+.title-b{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+/*esta clase guitarra es en general y la otra es solo para el h2*/
+.guitarras{
+color:#1F313C ;
+
+
+}
+
+.guitarras h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+
+.guitarra{
+	margin: 10px 10px 30px 10px;
+	padding: 10px;
+	/*overflow: hidden;*/
+	border:1px solid Gray;
+	border-radius: 8px;
+	height: 190px;
+}
+.guitarra ol{
+	padding: 0px;
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+	color: white;
+}
+
+.menu li,a{
+	
+	color: white;
+	text-decoration: none;
+}
+
+.menu li:before {
+	content: '°';
+	font-size: 30px;
+	line-height: 20px;
+	color: white;
+	
+}
+
+.logotipo{
+	display: inline-block;
+margin-left: 0;
+}
+
+.conte-guitarra{
+padding-left: 20px;
+
+}
+.conte-guitarra-b{
+margin-left: 370px;
+position: relative;
+bottom: 50px;
+
+}
+
+.contenedor{
+padding: 20px;
+width:800px;
+margin: auto;
+position: relative;
+
+}
+.right{
+	float: right;
+	position: relative;
+	top: -120px;
+}
+.left{
+	float: left;
+	position: relative;
+	
+}
+
+.button{
+	border-radius: 8px;
+	background: #fd324e;
+	color:white;
+	padding: 7px;
+	font-size: 15px;
+	background: linear-gradient(to left,#fe344e, #ff7250);
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/*de aca empieza el pie de pagina y el formulario*/
+
+.footer{
+background: #273b47;
+padding: 50px 10px;
+
+
+}
+
+.contacto{
+	width: 300px;
+	flex-wrap:wrap;
+	align-items:center;
+
+}
+
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+
+}
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0px;
+}
+
+
+.footer .contenedor{
+	display: flex;
+}
+.formulario{
+	display: flex;
+	width: 400px;
+	color: white;
+	
+}
+
+.col1 , .col2{
+	display: flex;
+	flex-direction:column;
+
+}
+.col1{
+	margin-right: 20px;
+}
+
+.col2{
+
+	align-items:flex-start;
+}
+
+.col2 .button{
+	margin-top:15px;
+}
+.intereses label{
+font-size: 12px;
+
+}
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
+.table{
+	margin:60px 0px; 
+}
+
+table{
+width: 100%;
+
+}
+th{
+	background: #273b47;
+	color: white;	
+	text-align: left;
+}
+th{
+	padding: 10px 20px;
+}
+td{
+	padding: 20px;
+}
+
+table, td, th{
+	border:1px solid #273b47; 
+	border-collapse: collapse;
+}
