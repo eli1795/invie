@@ -23,6 +23,20 @@ margin-bottom:15px;
 margin: 0px;
 
 }
+
+
+.rotacion:hover{
+transform:rotate(360deg); 
+/*transform:scale(2); 
+transform:skew(45deg); 
+*/}
+.transicion
+{
+ transition-duration:.5s;
+ /*transition-property:opacity;*/
+ transition-timing-function:ease;
+	
+}
 .background
 {
 	background-image: url('../imagenes/background.png');
@@ -103,7 +117,14 @@ color:#1F313C ;
 	position: absolute;
 	right: 0px;
 }
+.inicio li,a{
+	transition:.3s;
+	
 
+}
+.inicio:hover li,a{
+	transform:scale(1.2);
+}
 .menu li{
 	display: inline-block;
 	margin-left: 30px;
@@ -111,7 +132,7 @@ color:#1F313C ;
 }
 
 .menu li,a{
-	
+	transition:.3s;
 	color: white;
 	text-decoration: none;
 }
